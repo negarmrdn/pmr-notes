@@ -4,4 +4,4 @@ TBI severity and classification, disorders of consciousness, post-traumatic amne
 
 ## Notes
 
-*No notes yet.*
+- [Stroke 1: Types, localization & acute management](stroke-types-acute-management.md)

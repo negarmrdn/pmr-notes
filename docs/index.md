@@ -74,6 +74,7 @@ hide:
 
 ## Recently added
 
+- [Stroke 1: Types, localization & acute management](brain-injury-stroke/stroke-types-acute-management.md) · Brain Injury & Stroke
 - [ISNCSCI exam & AIS classification](spinal-cord-injury/isncsci-ais.md) · Spinal Cord Injury
 
 [:material-tag-multiple: Browse by tag](tags.md){ .md-button } [:material-pencil-plus: How to add notes](how-to-add-notes.md){ .md-button }
