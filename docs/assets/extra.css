@@ -1,0 +1,83 @@
+/* Colors: deep teal with a warm clay accent */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #1f4e5a;
+  --md-primary-fg-color--light: #2f6b78;
+  --md-primary-fg-color--dark: #153a43;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #c2603a;
+  --md-accent-fg-color--transparent: rgba(194, 96, 58, 0.1);
+  --md-typeset-a-color: #1d6b7c;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1b3a42;
+  --md-primary-fg-color--light: #2a5560;
+  --md-primary-fg-color--dark: #10262c;
+  --md-accent-fg-color: #e8906a;
+  --md-accent-fg-color--transparent: rgba(232, 144, 106, 0.12);
+  --md-typeset-a-color: #7cc3d0;
+}
+
+/* Home page */
+.home-intro {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 40rem;
+  margin-bottom: 1.6rem;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .home-intro {
+    font-size: 0.9rem;
+  }
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 10px;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-1px);
+}
+
+.md-typeset .grid.cards .twemoji,
+.md-typeset .grid.cards svg {
+  color: var(--md-primary-fg-color--light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards svg {
+  color: var(--md-typeset-a-color);
+}
+
+/* Tables: tighter and easier to scan for exam tables */
+.md-typeset table:not([class]) {
+  font-size: 0.72rem;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 0.55em 1em;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Callouts */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+}
+
+/* Sample-note banner */
+.sample-banner {
+  font-size: 0.75rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  background: var(--md-accent-fg-color--transparent);
+  border-left: 3px solid var(--md-accent-fg-color);
+  margin-bottom: 1rem;
+}
